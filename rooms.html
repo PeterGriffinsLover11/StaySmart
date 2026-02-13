@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rooms | StaySmart</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Inline safety styles (override everything else) -->
+  <style>
+    .rooms-wrapper {
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .room-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #ffffff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .room-item img {
+      width: 90px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .room-info h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .room-info p {
+      margin: 4px 0;
+      font-weight: 500;
+    }
+
+    .room-info small {
+      color: #666;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="page-title">Our Rooms</h2>
+
+  <div class="rooms-wrapper">
+
+    <div class="room-item">
+      <img src="https://images.unsplash.com/photo-1586105251261-72a756497a11" alt="Single Sharing Room">
+      <div class="room-info">
+        <h3>Single Sharing</h3>
+        <p>₹9,000 / month</p>
+        <small>✔ AC • ✔ Study Desk • ✔ Attached Bathroom</small>
+      </div>
+    </div>
+
+    <div class="room-item">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="Double Sharing Room">
+
+      <div class="room-info">
+        <h3>Double Sharing</h3>
+        <p>₹6,000 / month</p>
+        <small>✔ Two Beds • ✔ Wi-Fi • ✔ Spacious</small>
+      </div>
+    </div>
+
+    <div class="room-item">
+      <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0" alt="Triple Sharing Room">
+      <div class="room-info">
+        <h3>Triple Sharing</h3>
+        <p>₹4,500 / month</p>
+        <small>✔ Budget Friendly • ✔ Storage • ✔ Power Backup</small>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
